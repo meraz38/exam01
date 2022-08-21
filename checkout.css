@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card{
+  margin: 80px auto;
+  
+}
+table{
+  width: 60%;
+  border-collapse: collapse;
+  align-items: center;
+  margin-left: 150px;
+}
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+th{
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+}
+td{
+  padding: 10px 5px;
+}
+td input{
+  height: 30px;
+  width: 40px;
+  padding: 5px;
+}
+td a{
+  color: #ff523b;
+  font-size: 12px;
+}
+td img{
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
+p{
+  margin-left: 0;
+}
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table{
+  border-top: 3px solid #ff523b;
+  width: 60%;
+  float: left;
+  margin-right: 160px;
+
+ 
+
+ 
+}
